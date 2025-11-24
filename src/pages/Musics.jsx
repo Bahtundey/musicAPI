@@ -12,7 +12,7 @@ const Musics = () => {
   useEffect(() => {
     const fetchMusic = async () => {
       try {
-        const res = await axios.get("http://localhost:3500/musics");
+        const res = await axios.get("https://prac-0o8f.onrender.com/musics");
         
         console.log("BACKEND RESPONSE:", res.data);
 
