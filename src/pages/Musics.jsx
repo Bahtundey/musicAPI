@@ -67,54 +67,7 @@ const Musics = () => {
     </div>
   );
   
-  // if (loading) {
-  //   return (
-  //     <div className="container py-4">
-  //       <h1 className="text-center mb-4 title">bigDev</h1>
-  //       <div className="row">
-  //         {Array.from({ length: 8 }).map((_, index) => (
-  //           <div
-  //             key={index}
-  //             className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 fade-in-card"
-  //             style={{ "--i": index }}
-  //           >
-  //             <div className="music-card skeleton-card"></div>
-  //           </div>
-  //         ))}
-  //       </div>
-  //     </div>
-  //   );
-  // }
-
-  // return (
-  //   <div className="container py-4">
-  //     <h1 className="text-center mb-4 title">bigDev</h1>
-
-  //     <div className="row g-4">
-  //       {music.map((song, index) => {
-  //         const isPlaying = playingId === song.id;
-
-         
-  //         const colClass = isPlaying ? "col-12 col-lg-6" : "col-12 col-sm-6 col-md-4 col-lg-3";
-
-  //         return (
-  //           <div
-  //             key={song.id}
-  //             className={`${colClass} mb-4 fade-in-card`}
-  //             style={{ "--i": index }}
-  //           >
-  //             <div
-  //               className={`music-card-wrapper ${isPlaying ? "playing" : ""}`}
-  //               onClick={() => setPlayingId(song.id)}
-  //             >
-  //               <MusicCard song={song} />
-  //             </div>
-  //           </div>
-  //         );
-  //       })}
-  //     </div>
-  //   </div>
-  // );
+  
 };
 
 export default Musics;
