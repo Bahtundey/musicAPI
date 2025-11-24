@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import "../App.css";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   const [open, setOpen] = useState(true);
@@ -17,6 +18,7 @@ const Sidebar = () => {
         <li><a href="#">Home</a></li>
         <li><a href="#">Search</a></li>
         <li><a href="#">Your Library</a></li>
+        <li><Link to='/musics' >Musics</Link></li>
       </ul>
       <hr />
       <ul className="sidebar-playlists">
